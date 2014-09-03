@@ -1,0 +1,16 @@
+#site-utility-wrapper,#site-nav-wrapper,.padding-base,footer p.align-right,.flexi-grid-article-tools{
+	display:none !important;
+}
+#header-search{display:none !important;}
+.flexi-grid-article .hall-rating,.flexi-grid-article .hall-price{
+	font-size:0.6em;
+}
+.flexi-grid-article .hall-price .tarrif-schecule{
+	font-size:0.8em;
+}
+.flexi-grid-article .image-thumb{
+	margin-bottom:0.6em;
+}
+.flexi-grid-article .hall-name{
+	font-size:1em;
+}

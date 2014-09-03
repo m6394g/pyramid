@@ -1,0 +1,124 @@
+#search-filter-wrapper{
+	display:none;
+}
+.filter-options-wrapper{
+}
+.filter-container{
+	margin:0 auto;
+	max-width:640px;
+	padding-bottom:2em;
+}
+a.hw-filter-link{
+	border-radius:8px 8px 0 0;
+	border-bottom:1px solid #EDEBD6;
+	color:#000;
+	display:block;
+	font-size:1.2em;
+	margin-top:1.3em;
+	padding:0.7em 2.4em 0.7em 0.7em;
+	position:relative;
+	text-align:left;
+	text-decoration:none;
+}
+a.hw-filter-link.active{
+	border-bottom:1px solid #382E1C;
+}
+.hw-filter-link .nav-expand-collapse{
+	position:absolute;
+	right:0.5em;
+	top:0.8em;
+}
+.hw-filter-link .icons-plus{
+	display:inline;
+}
+.hw-filter-link .icons-minus{
+	display:none;
+}
+.hw-filter-link.active .icons-plus{
+	display:none;
+}
+.hw-filter-link.active .icons-minus{
+	display:block;
+}
+
+a.hw-filter-link .icons-rupee{
+	font-size:0.75em;
+}
+
+.hw-filter-container{
+	border-radius:0 0 8px 8px;
+	display:none;
+	padding:0.7em;
+}
+.hw-filter-container:after{
+	content:'';
+	clear:both;
+	display:table;
+}
+.hw-filter-container .form-table td{
+	padding:0 0.3em;
+}
+
+
+.hw-filter-container a.checkbox-filter{
+	background:#ccc;
+	color:#888;
+	display:inline-block;
+	float:left;
+	min-height:3.4em;
+	margin:1%;
+	padding:0.5em 2.5% 0.5em 4.5%;
+	position:relative;
+	text-align:left;
+	text-decoration:none;
+	width:16%;
+	
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.hw-filter-container a.checkbox-filter span.icons-ok-squared,.hw-filter-container a.checkbox-filter span.icon-facility{
+	position:absolute;
+	left:0.3em;
+}
+
+.hw-filter-container a.checkbox-filter:hover{
+	background:#888;
+	color:#fff;
+}
+.hw-filter-container a.checkbox-filter.active{
+	background:#005FBD;
+	color:#fff;
+}
+
+
+
+@media only screen and (min-width:640px) and (max-width:1024px),only screen and (min-width:600px) and (max-device-width:1280px) and (orientation:portrait) and (min-width:6in) and (max-width:10in){
+}
+@media only screen and (min-width:300px) and (max-width:640px),only screen and (min-width:300px) and (max-device-width:1280px) and (orientation:portrait) and (max-width:5in){
+	
+}
+
+@media only screen and (min-width: 641px) and (max-width: 800px),only screen and ( min-width : 500px ) and ( max-width : 1280px ) and ( orientation : portrait ) and ( min-device-width : 6in) and ( max-device-width : 10in)
+{
+	.filter-options-wrapper{
+		
+	}
+	.hw-filter-container a.checkbox-filter{
+		padding: 0.5em 3% 0.5em 5%;
+    	width: 23.3%;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 640px),only screen and ( min-width : 300px ) and ( max-width : 1280px ) and ( orientation : portrait ) and ( max-device-width : 5in)
+{
+	.hw-filter-container{
+		padding: 0.7em;
+	}
+	.filter-options-wrapper{
+		padding:0;
+		width:99.9%;
+	}
+	.hw-filter-container a.checkbox-filter{
+		padding:0.5em 3% 0.5em 10%;
+		width:84%;
+	}
+}

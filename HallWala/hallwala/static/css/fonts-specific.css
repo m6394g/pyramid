@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'cbold';
+    src: url('fonts/ColabBol-webfont.eot');
+    src: url('fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabBol-webfont.woff') format('woff'),
+         url('fonts/ColabBol-webfont.ttf') format('truetype'),
+         url('fonts/ColabBol-webfont.svg#colaborate-boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'clight';
+    src: url('fonts/ColabLig-webfont.eot');
+    src: url('fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabLig-webfont.woff') format('woff'),
+         url('fonts/ColabLig-webfont.ttf') format('truetype'),
+         url('fonts/ColabLig-webfont.svg#colaboratelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cmedium';
+    src: url('fonts/ColabMed-webfont.eot');
+    src: url('fonts/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabMed-webfont.woff') format('woff'),
+         url('fonts/ColabMed-webfont.ttf') format('truetype'),
+         url('fonts/ColabMed-webfont.svg#colaborate-mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cregular';
+    src: url('fonts/ColabReg-webfont.eot');
+    src: url('fonts/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabReg-webfont.woff') format('woff'),
+         url('fonts/ColabReg-webfont.ttf') format('truetype'),
+         url('fonts/ColabReg-webfont.svg#colaborate-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cthin';
+    src: url('fonts/ColabThi-webfont.eot');
+    src: url('fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabThi-webfont.woff') format('woff'),
+         url('fonts/ColabThi-webfont.ttf') format('truetype'),
+         url('fonts/ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'hw';
+  src: url('fonts/hw.eot?93672229');
+  src: url('fonts/hw.eot?93672229#iefix') format('embedded-opentype'),
+       url('fonts/hw.woff?93672229') format('woff'),
+       url('fonts/hw.ttf?93672229') format('truetype'),
+       url('fonts/hw.svg?93672229#hw') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'hw';
+    src: url('../font/hw.svg?93672229#hw') format('svg');
+  }
+}
+*/
+ 
+ [class^="icons-"]:before, [class*=" icons-"]:before {
+  font-family: "hw";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icons-parking:before { content: '\e83f'; } /* '' */
+.icons-tree-2:before { content: '\e846'; } /* '' */
+.icons-gym:before { content: '\e869'; } /* '' */
+.icons-search:before { content: '\e80a'; } /* '' */
+.icons-mail-alt:before { content: '\e801'; } /* '' */
+.icons-star:before { content: '\e805'; } /* '' */
+.icons-star-empty:before { content: '\e806'; } /* '' */
+.icons-star-half-alt:before { content: '\e807'; } /* '' */
+.icons-users-1:before { content: '\e80e'; } /* '' */
+.icons-ok:before { content: '\e80f'; } /* '' */
+.icons-ok-circled:before { content: '\e810'; } /* '' */
+.icons-ok-squared:before { content: '\e811'; } /* '' */
+.icons-cancel:before { content: '\e812'; } /* '' */
+.icons-cancel-circled:before { content: '\e813'; } /* '' */
+.icons-plus:before { content: '\e814'; } /* '' */
+.icons-plus-squared:before { content: '\e815'; } /* '' */
+.icons-minus:before { content: '\e816'; } /* '' */
+.icons-minus-squared:before { content: '\e817'; } /* '' */
+.icons-home:before { content: '\e809'; } /* '' */
+.icons-flag-checkered:before { content: '\e85f'; } /* '' */
+.icons-quote-left:before { content: '\e834'; } /* '' */
+.icons-quote-right:before { content: '\e835'; } /* '' */
+.icons-print:before { content: '\e833'; } /* '' */
+.icons-chat-empty:before { content: '\e808'; } /* '' */
+.icons-trash:before { content: '\e829'; } /* '' */
+.icons-doc:before { content: '\e82a'; } /* '' */
+.icons-phone:before { content: '\e800'; } /* '' */
+.icons-menu:before { content: '\e81e'; } /* '' */
+.icons-cog:before { content: '\e80b'; } /* '' */
+.icons-calendar:before { content: '\e80d'; } /* '' */
+.icons-down-dir:before { content: '\e823'; } /* '' */
+.icons-up-dir:before { content: '\e824'; } /* '' */
+.icons-left-dir:before { content: '\e825'; } /* '' */
+.icons-right-dir:before { content: '\e826'; } /* '' */
+.icons-down-open:before { content: '\e81f'; } /* '' */
+.icons-left-open:before { content: '\e820'; } /* '' */
+.icons-right-open:before { content: '\e821'; } /* '' */
+.icons-up-open:before { content: '\e822'; } /* '' */
+.icons-cw:before { content: '\e865'; } /* '' */
+.icons-ccw:before { content: '\e866'; } /* '' */
+.icons-arrows-cw:before { content: '\e867'; } /* '' */
+.icons-globe:before { content: '\e832'; } /* '' */
+.icons-flight:before { content: '\e85e'; } /* '' */
+.icons-briefcase:before { content: '\e839'; } /* '' */
+.icons-suitcase:before { content: '\e864'; } /* '' */
+.icons-chart-bar:before { content: '\e85a'; } /* '' */
+.icons-credit-card:before { content: '\e85d'; } /* '' */
+.icons-truck:before { content: '\e85c'; } /* '' */
+.icons-dollar:before { content: '\e83d'; } /* '' */
+.icons-rupee:before { content: '\e83e'; } /* '' */
+.icons-coffee:before { content: '\e868'; } /* '' */
+.icons-food:before { content: '\e836'; } /* '' */
+.icons-beer:before { content: '\e840'; } /* '' */
+.icons-taxi:before { content: '\e841'; } /* '' */
+.icons-extinguisher:before { content: '\e862'; } /* '' */
+.icons-wheelchair:before { content: '\e85b'; } /* '' */
+.icons-facebook-squared:before { content: '\e82c'; } /* '' */
+.icons-gplus-squared:before { content: '\e82d'; } /* '' */
+.icons-linkedin-squared:before { content: '\e82e'; } /* '' */
+.icons-pinterest-squared:before { content: '\e82f'; } /* '' */
+.icons-twitter-squared:before { content: '\e830'; } /* '' */
+.icons-youtube-squared:before { content: '\e831'; } /* '' */
+.icons-note-beamed:before { content: '\e83c'; } /* '' */
+.icons-user:before { content: '\e802'; } /* '' */
+.icons-video:before { content: '\e81d'; } /* '' */
+.icons-camera:before { content: '\e80c'; } /* '' */
+.icons-layout:before { content: '\e81b'; } /* '' */
+.icons-help-circled:before { content: '\e818'; } /* '' */
+.icons-info-circled:before { content: '\e819'; } /* '' */
+.icons-attention:before { content: '\e81a'; } /* '' */
+.icons-location:before { content: '\e803'; } /* '' */
+.icons-map:before { content: '\e804'; } /* '' */
+.icons-book-open:before { content: '\e82b'; } /* '' */
+.icons-book:before { content: '\e859'; } /* '' */
+.icons-bag:before { content: '\e842'; } /* '' */
+.icons-list:before { content: '\e81c'; } /* '' */
+.icons-signal:before { content: '\e83b'; } /* '' */
+.icons-monitor:before { content: '\e858'; } /* '' */
+.icons-install:before { content: '\e827'; } /* '' */
+.icons-droplet:before { content: '\e838'; } /* '' */
+.icons-air:before { content: '\e83a'; } /* '' */
+.icons-floppy:before { content: '\e828'; } /* '' */
+.icons-videocam-alt:before { content: '\e861'; } /* '' */
+.icons-basket-1:before { content: '\e863'; } /* '' */
+.icons-award:before { content: '\e860'; } /* '' */
+.icons-bar:before { content: '\e853'; } /* '' */
+.icons-baseball:before { content: '\e847'; } /* '' */
+.icons-basketball:before { content: '\e848'; } /* '' */
+.icons-bicycle:before { content: '\e84a'; } /* '' */
+.icons-bus:before { content: '\e849'; } /* '' */
+.icons-campsite:before { content: '\e854'; } /* '' */
+.icons-cricket:before { content: '\e843'; } /* '' */
+.icons-football:before { content: '\e852'; } /* '' */
+.icons-golf:before { content: '\e855'; } /* '' */
+.icons-lodging:before { content: '\e844'; } /* '' */
+.icons-police:before { content: '\e845'; } /* '' */
+.icons-school:before { content: '\e851'; } /* '' */
+.icons-shop:before { content: '\e84f'; } /* '' */
+.icons-skiing:before { content: '\e84e'; } /* '' */
+.icons-soccer:before { content: '\e850'; } /* '' */
+.icons-swimming:before { content: '\e84d'; } /* '' */
+.icons-tennis:before { content: '\e84c'; } /* '' */
+.icons-theatre:before { content: '\e856'; } /* '' */
+.icons-town-hall:before { content: '\e857'; } /* '' */
+.icons-tree-1:before { content: '\e84b'; } /* '' */
+.icons-ambulance:before { content: '\e837'; } /* '' */
